@@ -3556,6 +3556,25 @@
   "icon": "waterfall-main",
   "explorers": []
 }, {
+  "name": "Ethernity Mainnet",
+  "chain": "Ethernity",
+  "rpc": ["https://mainnet.ethernitychain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://www.ethernity.io",
+  "shortName": "ethernity-mainnet",
+  "chainId": 183,
+  "networkId": 183,
+  "explorers": [{
+    "name": "Ethernity Mainnet Explorer",
+    "url": "https://ernscan.io",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Dojima Testnet",
   "chain": "Dojima",
   "rpc": ["https://rpc-test-d11k.dojima.network"],
@@ -10406,6 +10425,27 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Metacces Testnet",
+  "chain": "Metacces Testnet",
+  "icon": "metacces",
+  "rpc": ["https://tapi.accesscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Metacces",
+    "symbol": "ACCES",
+    "decimals": 18
+  },
+  "infoURL": "https://metacces.com",
+  "shortName": "ACCESt",
+  "chainId": 1260,
+  "networkId": 1260,
+  "explorers": [{
+    "name": "accesscan",
+    "url": "https://testnet.accesscan.io",
+    "icon": "metacces",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "HALO Mainnet",
   "chain": "HALO",
   "rpc": ["https://nodes.halo.land"],
@@ -10969,8 +11009,8 @@
   }],
   "status": "deprecated"
 }, {
-  "name": "Silicon zkEVM Sepolia Testnet",
-  "title": "Silicon zkEVM Sepolia Testnet",
+  "name": "Silicon zkEVM Sepolia Testnet(Deprecated)",
+  "title": "Silicon zkEVM Sepolia Testnet(Deprecated)",
   "chain": "Silicon",
   "rpc": [],
   "faucets": [],
@@ -10980,7 +11020,7 @@
     "decimals": 18
   },
   "infoURL": "",
-  "shortName": "silicon-sepolia-testnet",
+  "shortName": "silicon-sepolia-testnet-deprecated",
   "chainId": 1414,
   "networkId": 1414,
   "icon": "silicon",
@@ -10990,7 +11030,7 @@
     "chain": "eip155-11155111",
     "bridges": []
   },
-  "status": "incubating"
+  "status": "deprecated"
 }, {
   "name": "Polygon zkEVM Testnet Pre Audit-Upgraded",
   "title": "Polygon zkEVM Testnet Pre Audit-Upgraded",
@@ -13456,6 +13496,27 @@
     "standard": "none"
   }]
 }, {
+  "name": "Metacces Mainnet",
+  "chain": "Metacces Mainnet",
+  "icon": "metacces",
+  "rpc": ["https://oli.accesscan.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Metacces",
+    "symbol": "ACCES",
+    "decimals": 18
+  },
+  "infoURL": "https://metacces.com",
+  "shortName": "ACCES",
+  "chainId": 2071,
+  "networkId": 2071,
+  "explorers": [{
+    "name": "accesscan",
+    "url": "https://accesscan.io",
+    "icon": "metacces",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Quokkacoin Mainnet",
   "chain": "Qkacoin",
   "rpc": ["https://rpc.qkacoin.org"],
@@ -14271,25 +14332,33 @@
   "name": "Silicon zkEVM",
   "title": "Silicon zkEVM Mainnet",
   "chain": "Silicon",
-  "rpc": [],
+  "rpc": ["https://rpc.silicon.network", "https://silicon-mainnet.nodeinfra.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Ether",
     "symbol": "ETH",
     "decimals": 18
   },
-  "infoURL": "",
+  "infoURL": "https://docs.silicon.network",
   "shortName": "silicon-zk",
   "chainId": 2355,
   "networkId": 2355,
   "icon": "silicon",
-  "explorers": [],
+  "explorers": [{
+    "name": "siliconscope",
+    "url": "https://scope.silicon.network",
+    "standard": "EIP3091"
+  }],
   "parent": {
     "type": "L2",
     "chain": "eip155-1",
-    "bridges": []
+    "bridges": [{
+      "url": "https://bridge.silicon.network"
+    }, {
+      "url": "https://bridge.orbitchain.io"
+    }]
   },
-  "status": "incubating"
+  "status": "active"
 }, {
   "name": "(deprecated) Kroma Sepolia",
   "title": "(deprecated) Kroma Testnet Sepolia",
@@ -18996,6 +19065,26 @@
     "standard": "EIP3091"
   }]
 }, {
+  "name": "Mtt Mainnet",
+  "chain": "MTT",
+  "rpc": ["https://evm-rpc.mtt.network"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Mtt mainnet native coin",
+    "symbol": "MTT",
+    "decimals": 18
+  },
+  "infoURL": "https://mtt.network",
+  "shortName": "mtt-mainnet",
+  "chainId": 6880,
+  "networkId": 6880,
+  "icon": "mttnetwork",
+  "explorers": [{
+    "name": "Mtt explorer",
+    "url": "https://explorer.mtt.network",
+    "standard": "EIP3091"
+  }]
+}, {
   "name": "Laika Mainnet",
   "chain": "LAIKA",
   "rpc": ["https://mainnetrpc.laikachain.dog"],
@@ -19993,6 +20082,33 @@
     "url": "https://polynomialscan.io",
     "standard": "none",
     "icon": "polynomial"
+  }]
+}, {
+  "name": "iSunCoin Mainnet",
+  "chain": "iSunCoin",
+  "icon": "isuncoin",
+  "rpc": ["https://mainnet.isuncoin.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "ISC",
+    "symbol": "ISC",
+    "decimals": 18
+  },
+  "infoURL": "https://isuncoin.com",
+  "features": [{
+    "name": "EIP155"
+  }, {
+    "name": "EIP1559"
+  }],
+  "shortName": "isc",
+  "chainId": 8017,
+  "networkId": 8017,
+  "slip44": 8017,
+  "explorers": [{
+    "name": "iSunCoin Explorer",
+    "icon": "isuncoin",
+    "url": "https://baifa.io/app/chains/8017",
+    "standard": "none"
   }]
 }, {
   "name": "MDGL Testnet",
@@ -25976,7 +26092,7 @@
 }, {
   "name": "Bitgert Mainnet",
   "chain": "Brise",
-  "rpc": ["https://rpc.icecreamswap.com", "https://mainnet-rpc.brisescan.com", "https://chainrpc.com", "https://serverrpc.com"],
+  "rpc": ["https://rpc-bitgert.icecreamswap.com", "https://mainnet-rpc.brisescan.com", "https://chainrpc.com", "https://serverrpc.com"],
   "faucets": [],
   "nativeCurrency": {
     "name": "Bitrise Token",
@@ -26746,8 +26862,8 @@
     "standard": "EIP3091"
   }]
 }, {
-  "name": "AssetChain Testnet",
-  "chain": "RWA",
+  "name": "Asset Chain Testnet",
+  "chain": "Asset Chain",
   "rpc": ["https://enugu-rpc.assetchain.org"],
   "faucets": ["https://faucet.assetchain.org"],
   "nativeCurrency": {
@@ -28731,6 +28847,26 @@
   "networkId": 65536,
   "icon": "automata",
   "explorers": []
+}, {
+  "name": "Creator Chain Testnet",
+  "chain": "creatorchain",
+  "icon": "creatorchain",
+  "rpc": ["https://rpc.creatorchain.io"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "CreatorETH",
+    "symbol": "CETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.creatorchain.io/",
+  "shortName": "ceth",
+  "chainId": 66665,
+  "networkId": 66665,
+  "explorers": [{
+    "name": "creatorchainscan",
+    "url": "https://explorer.creatorchain.io",
+    "standard": "EIP3091"
+  }]
 }, {
   "name": "Janus Testnet",
   "chain": "JanusNetwork",
@@ -38729,6 +38865,35 @@
   "chainId": 1666900001,
   "networkId": 1666900001,
   "explorers": []
+}, {
+  "name": "Silicon zkEVM Sepolia Testnet",
+  "title": "Silicon zkEVM Sepolia Testnet",
+  "chain": "Silicon",
+  "rpc": ["https://rpc-sepolia.silicon.network", "https://silicon-testnet.nodeinfra.com"],
+  "faucets": [],
+  "nativeCurrency": {
+    "name": "Sepolia Ether",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "infoURL": "https://docs.silicon.network",
+  "shortName": "silicon-sepolia-testnet",
+  "chainId": 1722641160,
+  "networkId": 1722641160,
+  "icon": "silicon",
+  "explorers": [{
+    "name": "siliconscope-sepolia",
+    "url": "https://scope-sepolia.silicon.network",
+    "standard": "EIP3091"
+  }],
+  "parent": {
+    "type": "L2",
+    "chain": "eip155-11155111",
+    "bridges": [{
+      "url": "https://bridge-sepolia.silicon.network"
+    }]
+  },
+  "status": "active"
 }, {
   "name": "Kakarot Sepolia",
   "chain": "ETH",

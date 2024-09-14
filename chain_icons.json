@@ -185,9 +185,9 @@
 }, {
   "name": "aia",
   "icons": [{
-    "url": "ipfs://QmXbBMMhjTTGAGjmqMpJm3ufFrtdkfEXCFyXYgz7nnZzsy",
-    "width": 160,
-    "height": 160,
+    "url": "ipfs://QmPAcZioXaoJd8vFRrqdj2cWXWkbSHoCPiyZH9ukncfvfg",
+    "width": 150,
+    "height": 150,
     "format": "png"
   }]
 }, {
@@ -716,6 +716,14 @@
     "url": "ipfs://QmVf1afskRHuZjFSLCZH8397KrVNAoYgyAePX9VMBrPVtx",
     "width": 246,
     "height": 247,
+    "format": "png"
+  }]
+}, {
+  "name": "metacces",
+  "icons": [{
+    "url": "ipfs://QmbpYHpqR68uuJZCwm1CXtN51zi744qWzZ32ob9BKfgFTV",
+    "width": 40,
+    "height": 38,
     "format": "png"
   }]
 }, {
@@ -1751,6 +1759,14 @@
     "format": "png"
   }]
 }, {
+  "name": "isuncoin",
+  "icons": [{
+    "url": "ipfs://Qmdj8PwchmbpZKYvkB3oJiRX9eZdY6C16AbEz6D1DU3Vqn",
+    "width": 60,
+    "height": 61,
+    "format": "svg"
+  }]
+}, {
   "name": "daon",
   "icons": [{
     "url": "ipfs://bafkreiapaxokh2p4j7hg43ug2inomixiwrdhni4kpqazvqifssnez7efze",
@@ -2188,6 +2204,14 @@
     "url": "ipfs://QmVz2jPdp5vXo4mJVuTXLmwcfQsw3XVojkmochPckvCowz",
     "width": 180,
     "height": 180,
+    "format": "png"
+  }]
+}, {
+  "name": "mttnetwork",
+  "icons": [{
+    "url": "ipfs://QmRwyxmvNEJBJwXDFAAGSaoUqTLjdthwzhKx3rjyKRR6ZL",
+    "width": 500,
+    "height": 500,
     "format": "png"
   }]
 }, {
@@ -4452,6 +4476,14 @@
     "url": "ipfs://QmWdpK5WFKrosaCSpJRCvU7uXeKk2qVeCckTxh6Zw2JrK8",
     "width": 600,
     "height": 600,
+    "format": "png"
+  }]
+}, {
+  "name": "creatorchain",
+  "icons": [{
+    "url": "ipfs://QmarU6J1FyXddaRkrWagEXN39TXUTNdVcuDTfHFKvvs3D4",
+    "width": 1280,
+    "height": 1280,
     "format": "png"
   }]
 }, {
